@@ -21,7 +21,7 @@ app.get("/", function(req, res){
 app.post("/",function(req,res){
 let name = req.body.name;
 let email = req.body.email;
-console.log(req.body)
+// console.log(req.body)
 
  // console.log (fname,lname,email);
 
